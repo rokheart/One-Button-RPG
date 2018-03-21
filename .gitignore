@@ -3,6 +3,7 @@
 
 ### Git ###
 *.orig
+
 ### Java ###
 # Compiled class file
 *.class
