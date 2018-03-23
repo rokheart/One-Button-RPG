@@ -1,0 +1,17 @@
+{
+  "name": "One-Button-RPG",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/vorana/One-Button-RPG",
+  "author": "vorana",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.1"
+  }
+}
