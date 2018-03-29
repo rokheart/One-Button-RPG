@@ -27,11 +27,7 @@ var server = http.createServer(function onRequest (req, res) {
     res.write('</div>');
 
     res.write('<form action="/">');
-    res.write('    First name:<br>');
-    res.write('    <input type="text" name="firstname" value="Mickey"><br>');
-    res.write('    Last name:<br>');
-    res.write('    <input type="text" name="lastname" value="Mouse"><br><br>');
-    res.write('    <input type="submit" value="Submit">');
+    res.write('    <input type="submit" value="Attack!">');
     res.write('</form>');
 
     res.end();
