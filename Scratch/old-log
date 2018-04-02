@@ -1,0 +1,59 @@
+    
+    // fs.readFile('index.html', function(err, data0) {
+    //   if(err) {
+    //     console.log('Error reading index.html' + err);
+    //     done(err);
+    //   }
+    //   console.log('read index.html');
+    //   console.log(data0.toString());
+
+    
+
+
+
+      // fs.writeFile('send.txt', (data0.toString()) , function (err) {
+      //   if (err) throw err;
+      //   console.log('Saved send.html');
+      //   console.log(data0.toString());
+      //   fs.readFile('send.html', function(err, data1) {
+      //     console.log('read send.html');
+      //     console.log(data1.toString());
+      //     res.writeHead(200, {'Content-Type': 'text/html'});
+      //     res.write(data1);
+      //     console.log('sent send.html');
+      //     console.log(data1.toString());
+          // res.end();
+        // });
+      // });
+      // res.writeHead(200, {'Content-Type': 'text/html'});
+      // res.write(data);
+      // res.end();
+    // });
+
+
+    // fs.readFile('send.html', function(err, data) {
+    //   if (err) throw err;
+    //   console.log('read send.html');
+    //   res.writeHead(200, {'Content-Type': 'text/html'});
+    //   res.write(data);
+    //   console.log('sent send.html');
+    //   res.end();
+    // })
+
+    // res.writeHead(200, {'Content-Type': 'text/html'});
+    // res.write('Hello!\n');
+    // res.write(count + "");
+    // //res.write('<div style="width:150px;height:150px;line-height:3em;overflow:scroll;padding:5px;">');
+    // res.write('<div id="log" style="height:150px;overflow:scroll;padding:10px;">');
+    // res.write('<p>You dealt ' + (10 + count) + ' damage</p>');
+    // res.write('<p>You rolled a 20</p>');
+    // res.write('<p>CRIT - 9999 damage</p>');
+    // res.write('</div>');
+
+    // res.write('<form action="/">');
+    // res.write('    <input type="submit" value="Attack!">');
+    // res.write('</form>');
+
+    // res.end();
+
+    
