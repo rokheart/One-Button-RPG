@@ -1,11 +1,26 @@
 {
   "name": "One-Button-RPG",
-  "version": "1.0.0",
+  "version": "0.3.0",
+  "description": "One Button D&D",
+  "engines": {
+    "node": "8.9.1"
+  },
   "main": "app.js",
-  "author": "vorana",
-  "license": "MIT",
-  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "serve-favicon": "^2.4.5"
-  }
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rokheart/One-Button-RPG"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "license": "MIT"
 }
