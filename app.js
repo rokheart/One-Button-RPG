@@ -31,7 +31,7 @@ const monsters = {
   "1": { 'name': 'Skeleton', 'LVL': 1, 'HP': 10, 'HPmax': 10, 'AC': 13, 'mod': 0, 'numDD': 1, 'DDsides': 4, 'EXPmin': 20, 'EXPmax': 30 },
   "2": { 'name': 'Zombie', 'LVL': 2, 'HP': 20, 'HPmax': 20, 'AC': 14, 'mod': 1, 'numDD': 1, 'DDsides': 8, 'EXPmin': 40, 'EXPmax': 60 },
   "3": { 'name': 'Goblin', 'LVL': 1, 'HP': 5, 'HPmax': 5, 'AC': 10, 'mod': 3, 'numDD': 2, 'DDsides': 8, 'EXPmin': 5, 'EXPmax': 10},
-  // "3": { 'name': 'Hurt Beholder', 'LVL': 20, 'HP': 1, 'HPmax': 9999, 'AC': 21, 'mod': 5, 'numDD': 1, 'DDsides': 100, 'EXPmin': 9000, 'EXPmax': 10000 },
+  "4": { 'name': 'Hurt Beholder', 'LVL': 20, 'HP': 1, 'HPmax': 9999, 'AC': 21, 'mod': 5, 'numDD': 1, 'DDsides': 100, 'EXPmin': 9000, 'EXPmax': 10000 },
 }
 
 let enemy = 'Skeleton'
@@ -167,7 +167,7 @@ let server = http.createServer(function onRequest(req, res) {
 
       //--- Load new enemy if dead ---/
       if (enemyAlive === 0) {
-        let monIndex = dice.roll(1, 3)
+        let monIndex = dice.roll(1, 4)
         enemy = monsters[monIndex.toString()]['name']
         eLVL = monsters[monIndex.toString()]['LVL']
         eHP = monsters[monIndex.toString()]['HP']
