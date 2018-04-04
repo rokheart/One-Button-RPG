@@ -12,9 +12,7 @@
   "dependencies": {
     "serve-favicon": "^2.4.5",
     "finalhandler": "",
-    "path": "",
-    "fs": "",
-    "util" : ""
+    "path": ""
   },
   "devDependencies": {
   },
