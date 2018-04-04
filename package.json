@@ -1,7 +1,7 @@
 {
   "name": "One-Button-RPG",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "app.js",
   "repository": "https://github.com/vorana/One-Button-RPG",
   "author": "vorana",
   "license": "MIT",
