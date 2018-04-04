@@ -1,2 +1,2 @@
 # One-Button-RPG
-A one button RPG as a 12 hour project for computer science
+A project to emulate the basic combat mechanics of D&D into one button
