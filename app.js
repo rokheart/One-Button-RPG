@@ -236,5 +236,5 @@ let server = http.createServer(function onRequest(req, res) {
     console.log('')
     res.end()
   })
-}).listen(3030)
+}).listen($PORT)
 console.log('Server open, listening on port: ' + server.address().port)
